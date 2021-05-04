@@ -13,6 +13,7 @@
 		442E5E132641B3910040DAB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442E5E122641B3910040DAB0 /* Preview Assets.xcassets */; };
 		442E5E1E2641B3910040DAB0 /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442E5E1D2641B3910040DAB0 /* ikidTests.swift */; };
 		442E5E292641B3910040DAB0 /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442E5E282641B3910040DAB0 /* ikidUITests.swift */; };
+		442E5E3A2641B47A0040DAB0 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442E5E392641B47A0040DAB0 /* JokeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		442E5E242641B3910040DAB0 /* ikidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		442E5E282641B3910040DAB0 /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		442E5E2A2641B3910040DAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442E5E392641B47A0040DAB0 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				442E5E0F2641B3910040DAB0 /* Assets.xcassets */,
 				442E5E142641B3910040DAB0 /* Info.plist */,
 				442E5E112641B3910040DAB0 /* Preview Content */,
+				442E5E392641B47A0040DAB0 /* JokeView.swift */,
 			);
 			path = ikid;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				442E5E0E2641B38D0040DAB0 /* ContentView.swift in Sources */,
+				442E5E3A2641B47A0040DAB0 /* JokeView.swift in Sources */,
 				442E5E0C2641B38D0040DAB0 /* ikidApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +431,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ikid;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calvem.ikid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,7 +453,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ikid;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calvem.ikid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
